@@ -4,7 +4,7 @@ pipeline {
         stage('Website-backup') {
             steps {
                 sh'''
-                    ./runBackupScript.sh
+                    /var/www/html/repo/MathstronautsWebsite/runBackupScript.sh
                 '''
             }
         }
